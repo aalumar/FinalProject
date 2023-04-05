@@ -11,8 +11,8 @@ def plot_loss_curves(results: Dict[str, List[float]]):
   test_loss = results["test_loss"]
 
   # get accuracy values of dictionary
-  accuracy = results["train_accuracy"]
-  test_accuracy = results["test_accuracy"]
+  accuracy = results["train_acc"]
+  test_accuracy = results["test_acc"]
 
   # how many epochs
   epochs = range(len(results["train_loss"]))
